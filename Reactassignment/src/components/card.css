@@ -1,0 +1,44 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px,2fr));
+   grid-template-rows: 3fr 3fr 3fr;
+   
+   grid-gap: 10px;
+   gap: 20px;
+   position: relative;
+}
+
+
+
+
+.description{
+    color: #fff;
+    background-color: #2C2C2C;
+  width: 400px;
+ 
+  position: absolute;
+bottom: 0;
+
+  
+}
+
+
+#card-price,#card-rating{
+    color: #FFA500;
+}
+#card-title{
+   font-size: 20px;
+
+  }
+  
+  button {
+    background-color: #fff;
+    color: rgb(93, 55, 6);
+   border-radius: 20px;
+    
+  }
+
+button:hover {
+    background-color: orange;
+    color: black;
+}

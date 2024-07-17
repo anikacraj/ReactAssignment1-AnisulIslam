@@ -1,0 +1,30 @@
+body {
+  background-color: #4C4C4C;
+}
+
+.name {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(400px,2fr));
+  grid-gap: 15px;
+  /* grid-auto-rows: minmax(100px, auto); */
+  
+}
+
+.card{
+  width: 30px;
+  height: 300px;
+
+}
+#image {
+  height: 300px;
+  width: 400px;
+  display: inline-block;
+}
